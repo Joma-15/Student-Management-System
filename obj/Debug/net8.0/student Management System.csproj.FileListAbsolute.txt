@@ -1,0 +1,14 @@
+D:\c sharp practice\student Management System\bin\Debug\net8.0\student Management System.exe
+D:\c sharp practice\student Management System\bin\Debug\net8.0\student Management System.deps.json
+D:\c sharp practice\student Management System\bin\Debug\net8.0\student Management System.runtimeconfig.json
+D:\c sharp practice\student Management System\bin\Debug\net8.0\student Management System.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\student Management System.pdb
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.AssemblyInfoInputs.cache
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.AssemblyInfo.cs
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.csproj.CoreCompileInputs.cache
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.dll
+D:\c sharp practice\student Management System\obj\Debug\net8.0\refint\student Management System.dll
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.pdb
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.genruntimeconfig.cache
+D:\c sharp practice\student Management System\obj\Debug\net8.0\ref\student Management System.dll
