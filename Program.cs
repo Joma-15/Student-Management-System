@@ -1,5 +1,6 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
+using DotNetEnv;
 
 namespace StudentManagementSystem
 {
@@ -73,6 +74,12 @@ namespace StudentManagementSystem
             get { return studentId; }
             set { studentId = value; }
         }
+    }
+
+    class Database : Student
+    {
+        Env.load();
+
     }
 
 }
