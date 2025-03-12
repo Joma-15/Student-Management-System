@@ -1,6 +1,5 @@
-﻿using System;
+﻿using DotNetEnv;
 using MySql.Data.MySqlClient;
-using DotNetEnv;
 
 namespace StudentManagementSystem
 {
@@ -18,6 +17,8 @@ namespace StudentManagementSystem
                     switch (choice)
                     {
                         case 1:
+                            Database database = new Database();
+                            database.connectToDatabase(); //this will create the connection to the database
                             break;
                         case 2:
                             break;
@@ -78,7 +79,31 @@ namespace StudentManagementSystem
 
     class Database : Student
     {
-        Env.load();
+        public void connectToDatabase()
+        {
+            //since the file .env is in the parent directory and not in the program.cs folder i use .. to move one folder to parent directory
+            Env.Load("../../.env");
+            String DB_HOST = Env.GetString("DB_HOST");
+            String DB_USER = Env.GetString("DB_USER");
+            String DB_PASSWORD = Env.GetString("DB_PASSWORD");
+            String DB_NAME = Env.GetString("DB_NAME");
+
+
+            String connectStr = $"server={DB_HOST}; database={DB_NAME}; user={DB_USER}; password={DB_PASSWORD}";
+
+            try
+            {
+                using (MySqlConnection conn = new MySqlConnection(connectStr))
+                {
+                    conn.Open(); //will try to contact the database connection 
+                    Console.WriteLine("the connection was established successfully"); //if the connection was successfull this will print
+                }
+            }
+            catch (MySqlException e)
+            {
+                Console.WriteLine("An error occured while connecting to the database");
+            }
+        }
 
     }
 

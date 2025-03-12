@@ -12,3 +12,35 @@ D:\c sharp practice\student Management System\obj\Debug\net8.0\refint\student Ma
 D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.pdb
 D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.genruntimeconfig.cache
 D:\c sharp practice\student Management System\obj\Debug\net8.0\ref\student Management System.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\DotNetEnv.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\Google.Protobuf.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\MySql.Data.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\Sprache.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Text.Json.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\ZstdSharp.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.csproj.AssemblyReference.cache
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.sourcelink.json
+D:\c sharp practice\student Management System\obj\Debug\net8.0\student .38197889.Up2Date
