@@ -1,5 +1,6 @@
-﻿using DotNetEnv;
+﻿using dotenv.net;
 using MySql.Data.MySqlClient;
+using System.IO;
 
 namespace StudentManagementSystem
 {
@@ -81,12 +82,28 @@ namespace StudentManagementSystem
     {
         public void connectToDatabase()
         {
-            //since the file .env is in the parent directory and not in the program.cs folder i use .. to move one folder to parent directory
-            Env.Load("../../.env");
-            String DB_HOST = Env.GetString("DB_HOST");
-            String DB_USER = Env.GetString("DB_USER");
-            String DB_PASSWORD = Env.GetString("DB_PASSWORD");
-            String DB_NAME = Env.GetString("DB_NAME");
+            ////since the file .env is in the parent directory and not in the program.cs folder i use .. to move one folder to parent directory
+            //string envPath = Path.Combine(Directory.GetCurrentDirectory(), ".env");
+
+            //if (File.Exists(envPath))
+            //{
+            //    Console.WriteLine($".env file FOUND at: {envPath}");
+
+            //    // Load .env file explicitly
+            //    DotEnv.Load(new DotEnvOptions(envFilePaths: new[] { envPath }));
+            //}
+            //else
+            //{
+            //    Console.WriteLine("ERROR: .env file NOT FOUND!");
+            //    return;
+            //}
+
+            DotEnv.Load();
+
+            var DB_HOST = Environment.GetEnvironmentVariable("DB_HOST");
+            var DB_USER = Environment.GetEnvironmentVariable("DB_USER");
+            var DB_PASSWORD = Environment.GetEnvironmentVariable("DB_PASSWORD");
+            var DB_NAME = Environment.GetEnvironmentVariable("DB_NAME");
 
 
             String connectStr = $"server={DB_HOST}; database={DB_NAME}; user={DB_USER}; password={DB_PASSWORD}";
@@ -102,6 +119,7 @@ namespace StudentManagementSystem
             catch (MySqlException e)
             {
                 Console.WriteLine("An error occured while connecting to the database");
+                Console.WriteLine(e.Message);
             }
         }
 

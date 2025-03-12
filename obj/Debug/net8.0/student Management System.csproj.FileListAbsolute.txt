@@ -44,3 +44,5 @@ D:\c sharp practice\student Management System\bin\Debug\net8.0\runtimes\win\lib\
 D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.csproj.AssemblyReference.cache
 D:\c sharp practice\student Management System\obj\Debug\net8.0\student Management System.sourcelink.json
 D:\c sharp practice\student Management System\obj\Debug\net8.0\student .38197889.Up2Date
+D:\c sharp practice\student Management System\bin\Debug\net8.0\dotenv.net.dll
+D:\c sharp practice\student Management System\bin\Debug\net8.0\.env
